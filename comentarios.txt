@@ -1,0 +1,12 @@
+Conceitos React
+  Componente - uma função que retorna algum HMTL/CSS/JS. Ex.: função 'App'
+  Propriedade - informações que um componente pai passa para o componente filho. Ex.: title(atributo) do algum componente.
+  Estado - informações mantidas pelo componente(Imutabilidade)
+
+Tipo de parâmetros:
+  Query Params: request.query (Filtros, ordenação, paginação...)
+  Route Params: request.params (Identificar um recurso na alteração ou remoção)
+  Body: request.body (Dados para criação ou alteração de um registro)
+
+
+

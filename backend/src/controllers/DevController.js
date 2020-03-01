@@ -1,12 +1,6 @@
-const axios = require('axios');
+﻿const axios = require('axios');
 const Dev = require('../models/Dev');
 const parseStringAsArray = require('../utils/parseStringAsArray');
-
-//Tipo de parâmetros:
-
-//Query Params: request.query (Filtros, ordenação, paginação...)
-//Route Params: request.params (Identificar um recurso na alteração ou remoção)
-//Body: request.body (Dados para criação ou alteração de um registro)
 
 // request = tudo que vem do front - requisição do usuário
 // response = resposta/resultado da requisição
